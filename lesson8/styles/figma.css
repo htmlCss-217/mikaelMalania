@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.logoWrapper {
+    display: flex;
+    margin-left: 96px;
+    gap: 5px;
+
+}
+
+#logoText {
+    color: #DEDEDE;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Manrope", serif;
+}
+
+header {
+    height: 80px;
+    background-color: #323232;
+}
+
+body {
+    background-color: #202020;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: "Manrope", serif;
+    color: #DEDEDE;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 56px;
+    margin-right: 50px;
+}
+
+body {
+    margin: 10px 0;
+}
+
+#welcomeTxt {
+    font-size: 64px;
+    color: #DEDEDE;
+    font-weight: bold;
+    font-family: "Manrope", serif;
+    width: 600px;
+}
+
+#anotherTxt {
+    font-family: "Manrope", serif;
+    font-weight: 450;
+    color: #959595;
+    font-size: 24px;
+    width: 490px;
+    position: relative;
+    bottom: 50px;
+}
+
+main {
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.mainTextWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#button1 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 16px;
+    background-color: #9D9D9D;
+    width: 400px;
+    justify-content: center;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#button1 p {
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    font-family: "Manrope", serif;
+}
+
+.mainInfoWrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightImage {
+    position: relative;
+    right: 110px;
+    top: 25px;
+}

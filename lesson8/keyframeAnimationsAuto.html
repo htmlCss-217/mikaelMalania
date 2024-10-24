@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+            .square {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: squareMover;
+                animation-duration: 5s;
+                animation-timing-function: ease-in; 
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes squareMover {
+                from {
+                    background-color: red;
+                    color: black;
+                }
+
+                to {
+                    background-color: green;
+                    color: pink;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="square">
+        </div>
+    </body>
+</html>
